@@ -1,0 +1,45 @@
+{
+  "profiles": [
+    {
+      "id": "cn_type_004",
+      "internalName": "cn_type_004",
+      "name": "CN Type 004",
+      "nameEn": "CN Type 004",
+      "unitType": "Carrier",
+      "category": "carrier",
+      "visionHeight": 12.4,
+      "sampleCount": 3,
+      "contributors": ["HanGO", "Mina", "Rex"]
+    },
+    {
+      "id": "uss_gerald_r_ford",
+      "internalName": "uss_gerald_r_ford",
+      "name": "USS Gerald R. Ford",
+      "nameEn": "USS Gerald R. Ford",
+      "unitType": "Carrier",
+      "category": "carrier",
+      "visionHeight": 11.8,
+      "sampleCount": 2,
+      "contributors": ["Rex", "Kite"]
+    },
+    {
+      "id": "admiral_nakhimov",
+      "internalName": "admiral_nakhimov",
+      "name": "Admiral Nakhimov",
+      "nameEn": "Admiral Nakhimov",
+      "unitType": "Cruiser",
+      "category": "standard",
+      "visionHeight": 10.9,
+      "sampleCount": 2,
+      "contributors": ["Mina", "Seo"]
+    },
+    {
+      "id": "arsenal_ship",
+      "internalName": "arsenal_ship",
+      "name": "Arsenal Ship",
+      "nameEn": "Arsenal Ship",
+      "unitType": "Destroyer",
+      "category": "standard"
+    }
+  ]
+}
