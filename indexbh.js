@@ -50362,7 +50362,7 @@ const T5 = {
 }
   , b5 = "2026년 8월 15일"
     , A5 = "JsonParc"
-  , C5 = "1528919811@qq.com"
+    , C5 = "vibimbap@gmail.com"
   , Cp = [{
     key: "notice",
     hash: "legal",
@@ -50597,7 +50597,7 @@ function D5({active: n, operatorName: e, contactEmail: t}) {
     })
 }
 function k5({sidebarCollapsed: n=!1, visionProfiles: e, selectedVisionId: t, onVisionChange: i}) {
-    const r = A5
+    const r = "SLBM dev JsonParc"
       , s = R5("VITE_LEGAL_CONTACT") || C5
       , [o,a] = O.useState( () => BT.get(window.location.hash) ?? null)
       , u = O.useRef(null)
@@ -50707,7 +50707,7 @@ function k5({sidebarCollapsed: n=!1, visionProfiles: e, selectedVisionId: t, onV
                     className: "pane-scroll px-5 py-5 text-[13px] leading-7 text-[var(--ink-2)] sm:px-6 sm:py-6",
                     children: [E.jsx(D5, {
                         active: o,
-                        operatorName: r,
+                        operatorName: A5,
                         contactEmail: s
                     }), E.jsxs("p", {
                         className: "mt-7 border-t border-[var(--rule)] pt-4 text-[11px] text-[var(--ink-3)]",
