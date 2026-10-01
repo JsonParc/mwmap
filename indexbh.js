@@ -49555,11 +49555,6 @@ function ZB({maps: n, selected: e, onSelect: t, meta: i, open: r, onOpenChange: 
                     className: "shrink-0 text-[12px] text-[var(--sonar)]",
                     children: r ? "접기" : "지도 변경"
                 })]
-            }), E.jsx(bp, {
-                placement: "mobile-status",
-                data: u,
-                selectedId: d,
-                onSelect: f
             })]
         })]
     }) : o ? E.jsxs("aside", {
@@ -49572,14 +49567,6 @@ function ZB({maps: n, selected: e, onSelect: t, meta: i, open: r, onOpenChange: 
             className: "grid h-8 w-8 place-items-center rounded-[3px] border border-[var(--rule)] text-[var(--ink-2)] transition-colors hover:border-[var(--rule-strong)] hover:bg-[var(--panel-2)] hover:text-[var(--ink)] active:translate-y-px",
             children: E.jsx(kT, {
                 collapsed: !0
-            })
-        }), E.jsx("div", {
-            className: "mt-2",
-            children: E.jsx(bp, {
-                placement: "collapsed",
-                data: u,
-                selectedId: d,
-                onSelect: f
             })
         }), E.jsx("span", {
             className: "mt-3 select-none [writing-mode:vertical-rl] text-[11px] tracking-[0.18em] text-[var(--ink-3)]",
@@ -49596,11 +49583,6 @@ function ZB({maps: n, selected: e, onSelect: t, meta: i, open: r, onOpenChange: 
                     children: [E.jsx("h1", {
                         className: "shrink-0 text-[15px] font-semibold tracking-wide text-[var(--ink)]",
                         children: "지형측량소"
-                    }), E.jsx(bp, {
-                        placement: "sidebar",
-                        data: u,
-                        selectedId: d,
-                        onSelect: f
                     })]
                 }), E.jsxs("p", {
                     className: "mt-0.5 text-[11px] text-[var(--ink-3)]",
@@ -49630,7 +49612,7 @@ function ZB({maps: n, selected: e, onSelect: t, meta: i, open: r, onOpenChange: 
                 children: "made by "
             }), E.jsx("span", {
                 className: "font-semibold text-[var(--accent)]",
-                children: "지평선『No.002』CHanGO"
+                children: "JsonParc"
             })]
         })]
     })
@@ -50379,7 +50361,7 @@ const T5 = {
     VITE_SITE_OPERATOR: ""
 }
   , b5 = "2026년 8월 15일"
-  , A5 = "지평선『No.002』CHanGO"
+    , A5 = "JsonParc"
   , C5 = "1528919811@qq.com"
   , Cp = [{
     key: "notice",
@@ -50615,7 +50597,6 @@ function D5({active: n, operatorName: e, contactEmail: t}) {
     })
 }
 function k5({sidebarCollapsed: n=!1, visionProfiles: e, selectedVisionId: t, onVisionChange: i}) {
-    return null;
     const r = A5
       , s = R5("VITE_LEGAL_CONTACT") || C5
       , [o,a] = O.useState( () => BT.get(window.location.hash) ?? null)
@@ -50680,12 +50661,7 @@ function k5({sidebarCollapsed: n=!1, visionProfiles: e, selectedVisionId: t, onV
                     href: `#${p.hash}`,
                     className: "hidden font-medium text-[var(--accent)] transition-colors hover:text-[var(--accent-strong)] md:inline",
                     children: p.label
-                }, p.key)), E.jsx(bp, {
-                    placement: "legal",
-                    data: e,
-                    selectedId: t,
-                    onSelect: i
-                })]
+                }, p.key))]
             })]
         }), f ? E.jsx("div", {
             className: "fixed inset-0 z-50 flex items-end justify-center bg-[var(--backdrop)] p-0 backdrop-blur-sm sm:items-center sm:p-6",
