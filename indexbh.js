@@ -48942,7 +48942,7 @@ function UB() {
         screenshot: n.get("shot") ?? null
     }
 }
-const OB = "스탠다드";
+const OB = "팀 데스메치";
 function mapLabel(n) {
     return n
 }
@@ -49075,7 +49075,7 @@ function BB({maps: n, selected: e, onSelect: t}) {
         })]
     })
 }
-const HB = "스탠다드";
+const HB = "팀 데스메치";
 function VB({maps: n, selected: e, onSelect: t}) {
     const i = O.useRef(null)
       , r = O.useRef(null)
@@ -50259,7 +50259,7 @@ const _5 = Ap([[0, "#3d93b8"], [.12, "#1f6d99"], [.35, "#124b74"], [.65, "#0a2f4
         land: Ap([[0, "#d9cba3"], [.05, "#b9bd7f"], [.14, "#7d9d55"], [.3, "#4f7a44"], [.48, "#6d6a4c"], [.66, "#8a8078"], [.84, "#c3c6c9"], [1, "#ffffff"]])
     },
     thermal: {
-        label: "열화",
+        label: "히트맵",
         land: Ap([[0, "#2b1a4a"], [.25, "#7a1f6d"], [.5, "#c43c4e"], [.75, "#f2842c"], [1, "#ffe66b"]])
     },
     mono: {
@@ -50299,7 +50299,7 @@ const w5 = [5, 10, 20, 50];
 function E5({rampKey: n, onRampChange: e, exaggeration: t, onExaggerationChange: i, contourInterval: r, onContourIntervalChange: s, showContours: o, onShowContoursChange: a, showSea: u, onShowSeaChange: d}) {
     return E.jsxs("div", {
         children: [E.jsx(Ta, {
-            label: "고도 색상띠",
+            label: "등고선",
             children: E.jsx("div", {
                 className: "flex flex-wrap gap-1.5",
                 children: S5.map(f => E.jsx(jm, {

@@ -12,7 +12,7 @@
         {
           "slug": "iceland",
           "mapName": "아이슬란드 군도",
-          "mode": "스탠다드",
+          "mode": "팀 데스메치",
           "sceneRoot": "Iceland",
           "level": 15,
           "resolution": 513,
@@ -373,7 +373,7 @@
         {
           "slug": "iceworld",
           "mapName": "북극권",
-          "mode": "스탠다드",
+          "mode": "팀 데스메치",
           "sceneRoot": "IceWorld",
           "level": 16,
           "resolution": 513,
@@ -882,7 +882,7 @@
         {
           "slug": "iceworld_dm",
           "mapName": "북극권",
-          "mode": "데스매치",
+          "mode": "도미네이션",
           "sceneRoot": "IceWorld_DM",
           "level": 17,
           "resolution": 513,
@@ -1105,7 +1105,7 @@
         {
           "slug": "iceworld_escort",
           "mapName": "북극권",
-          "mode": "호위",
+          "mode": "호위전",
           "sceneRoot": "IceWorld_EC",
           "level": 18,
           "resolution": 513,
@@ -1614,7 +1614,7 @@
         {
           "slug": "iceworld_tw",
           "mapName": "북극권",
-          "mode": "연합전",
+          "mode": "조별전투",
           "sceneRoot": "IceWorld_TW",
           "level": 20,
           "resolution": 513,
@@ -2435,12 +2435,12 @@
       "thumbnail": "/map-thumbnails/iceworld.webp"
     },
     {
-      "mapName": "쌍무사",
+      "mapName": "두 사무라이",
       "variants": [
         {
           "slug": "twosamurai",
-          "mapName": "쌍무사",
-          "mode": "스탠다드",
+          "mapName": "두 사무라이",
+          "mode": "팀 데스메치",
           "sceneRoot": "TwoSamurai",
           "level": 38,
           "resolution": 513,
@@ -2948,8 +2948,8 @@
         },
         {
           "slug": "twosamurai_dm",
-          "mapName": "쌍무사",
-          "mode": "데스매치",
+          "mapName": "두 사무라이",
+          "mode": "도미네이션",
           "sceneRoot": "TwoSamurai_DM",
           "level": 39,
           "resolution": 513,
@@ -3171,8 +3171,8 @@
         },
         {
           "slug": "twosamurai_escort",
-          "mapName": "쌍무사",
-          "mode": "호위",
+          "mapName": "두 사무라이",
+          "mode": "호위전",
           "sceneRoot": "TwoSamurai_EC",
           "level": 40,
           "resolution": 513,
@@ -3680,8 +3680,8 @@
         },
         {
           "slug": "twosamurai_tw",
-          "mapName": "쌍무사",
-          "mode": "연합전",
+          "mapName": "두 사무라이",
+          "mode": "조별전투",
           "sceneRoot": "TwoSamurai_TW",
           "level": 41,
           "resolution": 513,
@@ -3993,12 +3993,12 @@
       "thumbnail": "/map-thumbnails/twosamurai.webp"
     },
     {
-      "mapName": "대소용돌이",
+      "mapName": "거대한 소용돌이",
       "variants": [
         {
           "slug": "monstrousmaelstrom",
-          "mapName": "대소용돌이",
-          "mode": "스탠다드",
+          "mapName": "거대한 소용돌이",
+          "mode": "팀 데스메치",
           "sceneRoot": "MonstrousMaelstrom",
           "level": 24,
           "resolution": 513,
@@ -4506,7 +4506,7 @@
         },
         {
           "slug": "monstrousmaelstrom_domination",
-          "mapName": "대소용돌이",
+          "mapName": "거대한 소용돌이",
           "mode": "점령",
           "sceneRoot": "MonstrousMaelstrom_DN",
           "level": 25,
@@ -5015,8 +5015,8 @@
         },
         {
           "slug": "monstrousmaelstrom_escort",
-          "mapName": "대소용돌이",
-          "mode": "호위",
+          "mapName": "거대한 소용돌이",
+          "mode": "호위전",
           "sceneRoot": "MonstrousMaelstrom_EC",
           "level": 26,
           "resolution": 513,
@@ -5531,7 +5531,7 @@
         {
           "slug": "lostcity",
           "mapName": "잃어버린 도시",
-          "mode": "스탠다드",
+          "mode": "팀 데스메치",
           "sceneRoot": "LostCity",
           "level": 21,
           "resolution": 513,
@@ -6549,7 +6549,7 @@
         {
           "slug": "lostcity_escort",
           "mapName": "잃어버린 도시",
-          "mode": "호위",
+          "mode": "호위전",
           "sceneRoot": "LostCity_EC",
           "level": 23,
           "resolution": 513,
@@ -7059,12 +7059,12 @@
       "thumbnail": "/map-thumbnails/lostcity.webp"
     },
     {
-      "mapName": "암봉",
+      "mapName": "암벽 군도",
       "variants": [
         {
           "slug": "stonepeaks",
-          "mapName": "암봉",
-          "mode": "스탠다드",
+          "mapName": "암벽 군도",
+          "mode": "팀 데스메치",
           "sceneRoot": "StonePeaks",
           "level": 31,
           "resolution": 513,
@@ -7572,7 +7572,7 @@
         },
         {
           "slug": "stonepeaks_ng",
-          "mapName": "암봉",
+          "mapName": "암벽 군도",
           "mode": "미니",
           "sceneRoot": "StonePeaks_NG",
           "level": 32,
@@ -8081,7 +8081,7 @@
         },
         {
           "slug": "stonepeaks_testdrive",
-          "mapName": "암봉",
+          "mapName": "암벽 군도",
           "mode": "시승",
           "sceneRoot": "StonePeaks_testdrive",
           "level": 34,
@@ -8590,7 +8590,7 @@
         },
         {
           "slug": "stonepeaks_tutorial",
-          "mapName": "암봉",
+          "mapName": "암벽 군도",
           "mode": "튜토리얼",
           "sceneRoot": "StonePeaks_tutorial",
           "level": 35,
@@ -8659,7 +8659,7 @@
         },
         {
           "slug": "stonepeaks_carrier_tutorial",
-          "mapName": "암봉",
+          "mapName": "암벽 군도",
           "mode": "항모 튜토리얼",
           "sceneRoot": "StonePeaks_testdrive",
           "level": 51,
@@ -8719,12 +8719,12 @@
       "thumbnail": "/map-thumbnails/stonepeaks.webp"
     },
     {
-      "mapName": "폐공장",
+      "mapName": "버려진 조선소",
       "variants": [
         {
           "slug": "oldfactory",
-          "mapName": "폐공장",
-          "mode": "스탠다드",
+          "mapName": "버려진 조선소",
+          "mode": "팀 데스메치",
           "sceneRoot": "OldFactory",
           "level": 27,
           "resolution": 513,
@@ -9232,7 +9232,7 @@
         },
         {
           "slug": "oldfactory_domination",
-          "mapName": "폐공장",
+          "mapName": "버려진 조선소",
           "mode": "점령",
           "sceneRoot": "OldFactory_DN",
           "level": 28,
@@ -9743,12 +9743,12 @@
       "thumbnail": "/map-thumbnails/oldfactory.webp"
     },
     {
-      "mapName": "미개척 암석지대",
+      "mapName": "미지의 바위",
       "variants": [
         {
           "slug": "unexploredrocks",
-          "mapName": "미개척 암석지대",
-          "mode": "스탠다드",
+          "mapName": "미지의 바위",
+          "mode": "팀 데스메치",
           "sceneRoot": "UnexploredRocks",
           "level": 42,
           "resolution": 513,
@@ -10256,8 +10256,8 @@
         },
         {
           "slug": "unexploredrocks_dm",
-          "mapName": "미개척 암석지대",
-          "mode": "데스매치",
+          "mapName": "미지의 바위",
+          "mode": "도미네이션",
           "sceneRoot": "UnexploredRocks_DM",
           "level": 43,
           "resolution": 513,
@@ -10479,7 +10479,7 @@
         },
         {
           "slug": "unexploredrocks_ng",
-          "mapName": "미개척 암석지대",
+          "mapName": "미지의 바위",
           "mode": "미니",
           "sceneRoot": "UnexploredRocks_NG",
           "level": 44,
@@ -10990,12 +10990,12 @@
       "thumbnail": "/map-thumbnails/unexploredrocks.webp"
     },
     {
-      "mapName": "극지 변경",
+      "mapName": "극지 전선",
       "variants": [
         {
           "slug": "polarfrontier",
-          "mapName": "극지 변경",
-          "mode": "스탠다드",
+          "mapName": "극지 전선",
+          "mode": "팀 데스메치",
           "sceneRoot": "map_PolarFrontier",
           "level": 29,
           "resolution": 513,
@@ -11510,7 +11510,7 @@
         {
           "slug": "hiddendragon",
           "mapName": "잠룡",
-          "mode": "스탠다드",
+          "mode": "팀 데스메치",
           "sceneRoot": "HiddenDragon",
           "level": 11,
           "resolution": 513,
@@ -12019,7 +12019,7 @@
         {
           "slug": "hiddendragon_dm",
           "mapName": "잠룡",
-          "mode": "데스매치",
+          "mode": "도미네이션",
           "sceneRoot": "HiddenDragon_DM",
           "level": 12,
           "resolution": 513,
@@ -12751,7 +12751,7 @@
         {
           "slug": "hiddendragon_tw",
           "mapName": "잠룡",
-          "mode": "연합전",
+          "mode": "조별전투",
           "sceneRoot": "HiddenDragon_TW",
           "level": 14,
           "resolution": 513,
@@ -13063,12 +13063,12 @@
       "thumbnail": "/map-thumbnails/hiddendragon.webp"
     },
     {
-      "mapName": "바이킹 만",
+      "mapName": "바이킹 베이",
       "variants": [
         {
           "slug": "vikingbay",
-          "mapName": "바이킹 만",
-          "mode": "스탠다드",
+          "mapName": "바이킹 베이",
+          "mode": "팀 데스메치",
           "sceneRoot": "VikingBay",
           "level": 45,
           "resolution": 513,
@@ -13576,8 +13576,8 @@
         },
         {
           "slug": "vikingbay_dm",
-          "mapName": "바이킹 만",
-          "mode": "데스매치",
+          "mapName": "바이킹 베이",
+          "mode": "도미네이션",
           "sceneRoot": "VikingBay_DM",
           "level": 46,
           "resolution": 513,
@@ -13799,7 +13799,7 @@
         },
         {
           "slug": "vikingbay_domination",
-          "mapName": "바이킹 만",
+          "mapName": "바이킹 베이",
           "mode": "점령",
           "sceneRoot": "VikingBay_DN",
           "level": 47,
@@ -14308,8 +14308,8 @@
         },
         {
           "slug": "vikingbay_tw",
-          "mapName": "바이킹 만",
-          "mode": "연합전",
+          "mapName": "바이킹 베이",
+          "mode": "조별전투",
           "sceneRoot": "VikingBay_TW",
           "level": 48,
           "resolution": 513,
@@ -14621,12 +14621,12 @@
       "thumbnail": "/map-thumbnails/vikingbay.webp"
     },
     {
-      "mapName": "녹지",
+      "mapName": "목초지",
       "variants": [
         {
           "slug": "greenlands",
-          "mapName": "녹지",
-          "mode": "스탠다드",
+          "mapName": "목초지",
+          "mode": "팀 데스메치",
           "sceneRoot": "Greenlands",
           "level": 7,
           "resolution": 513,
@@ -15134,8 +15134,8 @@
         },
         {
           "slug": "greenlands_escort",
-          "mapName": "녹지",
-          "mode": "호위",
+          "mapName": "목초지",
+          "mode": "호위전",
           "sceneRoot": "Greenlands_EC",
           "level": 8,
           "resolution": 513,
@@ -15643,7 +15643,7 @@
         },
         {
           "slug": "greenlands_ng",
-          "mapName": "녹지",
+          "mapName": "목초지",
           "mode": "미니",
           "sceneRoot": "Greenlands_NG",
           "level": 9,
@@ -16152,7 +16152,7 @@
         },
         {
           "slug": "greenlands_tutorial",
-          "mapName": "녹지",
+          "mapName": "목초지",
           "mode": "튜토리얼",
           "sceneRoot": "GreenlandsTutorial",
           "level": 10,
@@ -16212,12 +16212,12 @@
       "thumbnail": "/map-thumbnails/greenlands.webp"
     },
     {
-      "mapName": "사막 전선",
+      "mapName": "불모의 전선",
       "variants": [
         {
           "slug": "aridfrontier",
-          "mapName": "사막 전선",
-          "mode": "스탠다드",
+          "mapName": "불모의 전선",
+          "mode": "팀 데스메치",
           "sceneRoot": "AridFrontier",
           "level": 4,
           "resolution": 513,
@@ -16725,8 +16725,8 @@
         },
         {
           "slug": "aridfrontier_escort",
-          "mapName": "사막 전선",
-          "mode": "호위",
+          "mapName": "불모의 전선",
+          "mode": "호위전",
           "sceneRoot": "AridFrontier_EC",
           "level": 5,
           "resolution": 513,
@@ -17234,8 +17234,8 @@
         },
         {
           "slug": "aridfrontier_tw",
-          "mapName": "사막 전선",
-          "mode": "연합전",
+          "mapName": "불모의 전선",
+          "mode": "조별전투",
           "sceneRoot": "AridFrontier_TW",
           "level": 6,
           "resolution": 513,
@@ -17552,7 +17552,7 @@
         {
           "slug": "storm",
           "mapName": "폭풍",
-          "mode": "스탠다드",
+          "mode": "팀 데스메치",
           "sceneRoot": "Storm",
           "level": 36,
           "resolution": 513,
@@ -18263,12 +18263,12 @@
       "thumbnail": "/map-thumbnails/storm.webp"
     },
     {
-      "mapName": "절벽 요새",
+      "mapName": "철옹성",
       "variants": [
         {
           "slug": "risingfortress",
-          "mapName": "절벽 요새",
-          "mode": "스탠다드",
+          "mapName": "철옹성",
+          "mode": "팀 데스메치",
           "sceneRoot": "RisingFortress",
           "level": 30,
           "resolution": 513,
