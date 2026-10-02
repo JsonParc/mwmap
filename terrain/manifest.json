@@ -881,7 +881,7 @@
         },
         {
           "slug": "iceworld_dm",
-          "mapName": "북극권",
+          "mapName": "북극",
           "mode": "도미네이션",
           "sceneRoot": "IceWorld_DM",
           "level": 17,
@@ -1104,7 +1104,7 @@
         },
         {
           "slug": "iceworld_escort",
-          "mapName": "북극권",
+          "mapName": "북극",
           "mode": "호위전",
           "sceneRoot": "IceWorld_EC",
           "level": 18,
@@ -1613,7 +1613,7 @@
         },
         {
           "slug": "iceworld_tw",
-          "mapName": "북극권",
+          "mapName": "북극",
           "mode": "조별전투",
           "sceneRoot": "IceWorld_TW",
           "level": 20,
@@ -1924,7 +1924,7 @@
         },
         {
           "slug": "iceworld_ng",
-          "mapName": "북극권",
+          "mapName": "북극",
           "mode": "미니",
           "sceneRoot": "IceWorld_NG",
           "level": 19,

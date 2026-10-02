@@ -50037,7 +50037,7 @@ function p5({active: n, onToggle: e, data: t, analysis: i, pinned: r=!1, preview
                     className: `flex items-center gap-1 rounded-[3px] px-1.5 py-1 text-[11px] transition-colors active:translate-y-px md:gap-1.5 md:px-2.5 md:py-1.5 md:text-[12px] ${n ? "bg-[var(--sonar)] font-medium text-[var(--accent-ink)]" : "text-[var(--ink-2)] hover:bg-[var(--hover)] hover:text-[var(--ink)]"}`,
                     children: [E.jsx(h5, {
                         className: "h-3.5 w-3.5 md:h-[17px] md:w-[17px]"
-                    }), "태세도"]
+                    }), "공격포인트 비교"]
                 })
             }), n && r ? E.jsx("button", {
                 type: "button",
