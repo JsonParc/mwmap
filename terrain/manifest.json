@@ -368,11 +368,11 @@
       "thumbnail": "/map-thumbnails/iceland.webp"
     },
     {
-      "mapName": "북극권",
+      "mapName": "북극",
       "variants": [
         {
           "slug": "iceworld",
-          "mapName": "북극권",
+          "mapName": "북극",
           "mode": "팀 데스메치",
           "sceneRoot": "IceWorld",
           "level": 16,
